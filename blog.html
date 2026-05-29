@@ -4,277 +4,265 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <title>판교 백링크 대행 업체 - 데이터 기반의 검색 엔진 최적화 전략 | 블로그</title>
-    <meta name="description" content="판교 백링크 대행 업체로 최고의 서비스를 제공합니다. 010-6279-0862 로 연락주세요. 판교 백링크 대행 업체의 전문가가 도와드립니다.">
-    <meta name="keywords" content="판교 백링크 대행, 백링크 대행 업체, 판교, PBN, 검색엔진 최적화, 구글 SEO">
-    <link rel="canonical" href="https://kr-pbn-bp-026.pages.dev/blog">
-    <meta property="og:title" content="판교 백링크 대행 업체 - kr-pbn-bp-026">
-    <meta property="og:description" content="판교 백링크 대행 업체로 최고의 서비스를 제공합니다. 010-6279-0862 로 연락주세요. 판교 백링크 대행 업체의 전문가가 도와드립니다.">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>판교 백링크 대행 - 도메인 권한 50% 상승을 위한 백링크 전략 (판교 테크노밸리)</title>
+    <meta name="description" content="판교 백링크 대행 업체에서 제공하는 기술 백서. 단순 피라미드 구조를 넘어선, Tier 3 PBN 네트워크를 활용한 검색 엔진 최적화 (SEO) 전략을 공개합니다.">
+    <meta name="keywords" content="판교 백링크 대행, PBN 전략, 도메인 권한 향상, 검색 엔진 최적화, SEO 알고리즘, 판교 SEO, 백링크 구축">
+    <link rel="canonical" href="https://kr-pbn-bp-026.pages.dev/blog/001">
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kr-pbn-bp-026.pages.dev/blog/001">
+    <meta property="og:title" content="판교 백링크 대행 - 도메인 권한 50% 상승을 위한 백링크 전략">
+    <meta property="og:description" content="검색 엔진 알고리즘의 공백을 파고드는 데이터 기반 백링크 구조 분석.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop">
+    
     <style>
+        /* CSS 핵심 - 기존 시스템 재사용 */
         :root {
-            --c-bg: #FFEB3B;
-            --c-fg: #000000;
-            --c-accent: #FFFFFF;
-            --s-border: 3px solid var(--c-fg);
-            --s-shadow: 6px 6px 0px var(--c-fg);
-            --f-main: 'Courier New', Courier, monospace;
-            --f-head: 'Impact', 'Arial Black', sans-serif;
-            --g-gap: 2rem;
+            --bg-color: #f0f0f0;
+            --text-color: #1a1a1a;
+            --accent-color: #000000;
+            --border-color: #1a1a1a;
+            --mono-font: 'Courier New', Courier, monospace;
+            --sans-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            --spacing-unit: 2rem;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
         body {
-            background-color: var(--c-bg);
-            color: var(--c-fg);
-            font-family: var(--f-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--sans-font);
             line-height: 1.6;
-            padding: 1rem;
+            border: 10px solid var(--border-color);
+            min-height: 100vh;
+        }
+
+        a {
+            color: var(--text-color);
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background-color: var(--text-color);
+            color: var(--bg-color);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: clamp(2rem, 5vw, 4rem); line-height: 0.9; border-bottom: 4px solid var(--border-color); padding-bottom: 1rem; }
+        h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-top: 3rem; }
+        h3 { font-size: 1.25rem; margin-top: 2rem; }
+        
+        .mono {
+            font-family: var(--mono-font);
+            font-size: 0.9rem;
+        }
+
+        /* Layout Utilities */
+        .container {
             max-width: 1200px;
             margin: 0 auto;
-            border-left: var(--s-border);
-            border-right: var(--s-border);
+            padding: var(--spacing-unit);
         }
 
-        header {
-            border-bottom: var(--s-border);
-            padding: 2rem 0;
-            margin-bottom: var(--g-gap);
-            text-align: center;
+        .section-gap {
+            margin-bottom: 4rem;
         }
 
-        header h1 {
-            font-family: var(--f-head);
-            font-size: 3.5rem;
-            text-transform: uppercase;
-            letter-spacing: -2px;
-            line-height: 1;
-            margin-bottom: 1rem;
-            text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
-        }
-
-        nav {
-            border-top: var(--s-border);
-            border-bottom: var(--s-border);
-            padding: 1rem 0;
-            margin-bottom: var(--g-gap);
-            background: var(--c-fg);
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-        }
-
-        nav li { display: inline-block; }
-
-        nav a {
-            color: var(--c-accent);
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            padding: 0.5rem 1rem;
-            transition: all 0.2s;
-            display: block;
-        }
-
-        nav a:hover {
-            background: var(--c-bg);
-            color: var(--c-fg);
-            transform: translate(-2px, -2px);
-            box-shadow: 2px 2px 0px var(--c-accent);
-        }
-
-        main {
+        .grid {
             display: grid;
-            gap: var(--g-gap);
+            gap: 2rem;
         }
 
-        section {
-            background: var(--c-accent);
-            border: var(--s-border);
-            box-shadow: var(--s-shadow);
-            padding: 2rem;
+        .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+        /* Borders & Shapes */
+        .border-box {
+            border: 2px solid var(--border-color);
+            padding: 1.5rem;
+            background-color: #fff;
+            box-shadow: 8px 8px 0px var(--border-color);
             transition: transform 0.2s;
         }
 
-        section:hover {
+        .border-box:hover {
             transform: translate(-2px, -2px);
-            box-shadow: 8px 8px 0px var(--c-fg);
+            box-shadow: 10px 10px 0px var(--border-color);
         }
 
-        section h2 {
-            font-family: var(--f-head);
-            font-size: 2.5rem;
-            border-bottom: var(--s-border);
-            padding-bottom: 1rem;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-        }
-
-        .article-content {
-            font-size: 1.1rem;
-            text-align: justify;
-        }
-
-        .article-content p {
-            margin-bottom: 1.5rem;
-        }
-
-        .article-content strong {
-            background: var(--c-bg);
-            padding: 0 4px;
-            border: 2px solid var(--c-fg);
-        }
-
-        .data-block {
-            background: #eee;
-            border: 2px solid var(--c-fg);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-family: monospace;
-        }
-
-        .review-card {
-            background: var(--c-fg);
-            color: var(--c-bg);
-            border: var(--s-border);
-            padding: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .review-card h3 {
-            font-family: var(--f-head);
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
-            border-bottom: 2px solid var(--c-bg);
+        .btn {
             display: inline-block;
-        }
-
-        .review-meta {
-            font-size: 0.9rem;
-            opacity: 0.8;
-            margin-bottom: 1rem;
-            font-style: italic;
-        }
-
-        footer {
-            margin-top: 4rem;
-            border-top: var(--s-border);
-            padding: 3rem 0;
-            text-align: center;
-            background: var(--c-fg);
-            color: var(--c-accent);
-        }
-
-        .cta-box {
-            background: var(--c-bg);
-            color: var(--c-fg);
-            display: inline-block;
+            background: var(--accent-color);
+            color: #fff;
             padding: 1rem 2rem;
-            border: var(--s-border);
             font-weight: bold;
-            font-size: 1.5rem;
-            margin-top: 1rem;
             text-decoration: none;
+            text-transform: uppercase;
+            border: 2px solid var(--border-color);
+            margin-top: 1rem;
         }
 
+        .btn:hover {
+            background: transparent;
+            color: var(--text-color);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border: 2px solid var(--border-color);
+            filter: grayscale(100%) contrast(120%);
+        }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            body { padding: 0.5rem; }
-            header h1 { font-size: 2.5rem; }
-            section h2 { font-size: 1.8rem; }
-            nav ul { flex-direction: column; gap: 0.5rem; align-items: center; }
-            nav a { text-align: center; width: 100%; border: 1px solid var(--c-accent); margin: 0.2rem 0; }
-            .review-card { padding: 1.5rem; }
+            body { border-width: 5px; }
+            .container { padding: 1rem; }
+            h1 { font-size: 2.5rem; }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>판교 백링크<br>데이터 베이스</h1>
-        <p>검색 알고리즘의 역학을 이해하는 전문가 그룹</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="/">홈 (Home)</a></li>
-            <li><a href="/about">서비스 소개 (Services)</a></li>
-            <li><a href="/blog">기술 블로그 (Blog)</a></li>
-            <li><a href="/contact">문의하기 (Contact)</a></li>
-            <li><a href="tel:010-6279-0862">010-6279-0862</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav style="border-bottom: 4px solid var(--border-color); padding: 1rem;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="mono" style="font-weight: bold; font-size: 1.2rem;">[PANGYO_SEO_LAB]</div>
+            <ul class="mono" style="display: flex; gap: 1.5rem;">
+                <li><a href="https://kr-pbn-bp-026.pages.dev" style="text-decoration: none;">HOME</a></li>
+                <li><a href="https://kr-pbn-bp-026.pages.dev" style="text-decoration: none;">STRATEGY</a></li>
+                <li><a href="https://kr-pbn-bp-026.pages.dev" style="text-decoration: none;">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
-        <section>
-            <h2>데이터 기반 링크 빌딩의 수학적 필연성</h2>
-            <article class="article-content">
-                <p>검색 엔진 최적화 (SEO) 는 더 이상 직관이나 추측의 영역이 아닙니다. 판교 백링크 대행 업계에서 살아남기 위해서는 구글의 PageRank 알고리즘이 진화한 현재의 서열 결정 로직을 수치적으로 이해해야 합니다. 본 블로그는 감정적 호소가 아닌, <strong>지배 집합성 (Dominance)</strong>과 <strong>토픽 권위 (Topical Authority)</strong>에 기반한 백링크 전략을 제시합니다.</p>
-                
-                <p>대다수의 마케터가 '도메인 권한 (DA)'이라는 단일 지표에 매몰되는 동안, 우리는 <strong>TR (Trust Rank)</strong>와 <strong>Citation Flow</strong>의 상관관계를 분석합니다. 판교 지역의 치열한 검색 환경에서 상위 노출을 달성하기 위해서는 단순한 링크의 양이 아니라, 링크가 전달되는 '신뢰의 벡터'가 중요합니다.</p>
+    <main class="container">
+        
+        <!-- Header Section -->
+        <header class="section-gap" style="margin-top: 4rem;">
+            <div class="mono" style="margin-bottom: 1rem; color: #555;">LOG :: SEO_ANALYSIS_2024 // PANGYO_TECH</div>
+            <h1>도메인 권한 (DA)의<br>수학적 재구성</h1>
+            <p class="mono" style="margin-top: 2rem; font-size: 1.1rem; border-left: 4px solid var(--border-color); padding-left: 1rem;">
+                단순 피라미드 구조를 넘어선, Tier 3 PBN 네트워크를 활용한 검색 엔진 최적화 (SEO) 전략 보고서.
+            </p>
+        </header>
 
-                <div class="data-block">
-                    [LOG ANALYSIS]<br>
-                    > Query: "판교 백링크 대행"<br>
-                    > SERP Volatility: High<br>
-                    > Required Metric: High Relevance + Niche Edit<br>
-                    > Status: Optimization In Progress...
+        <!-- Main Content Grid -->
+        <div class="grid grid-2 section-gap">
+            
+            <!-- Article Content -->
+            <article style="grid-column: span 2;">
+                <div class="border-box" style="padding: 0; border: none; box-shadow: none; background: transparent;">
+                    
+                    <h2>01. 판교 백링크 대행의 필요성</h2>
+                    <p style="margin-bottom: 1.5rem;">
+                        판교 테크노밸리를 중심으로 한 IT 및 스타트업 생태계는 경쟁이 치열합니다. 구글의 알고리즘 업데이트가 빈번해짐에 따라, 단순한 콘텐츠 생산만으로는 상위 노출을 보장할 수 없습니다. 핵심 변수는 '도메인 권한 (Domain Authority)'과 '백링크의 품질'입니다.
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        대부분의 업체는 저품질의 대량 백링크를 배포하지만, 이는 오히려 스팸 점수 (Spam Score) 를 높여 검색 엔진에서 배제되는 결과를 초래합니다. 우리는 데이터에 기반한 정교한 PBN (Private Blog Network) 을 구축하여, 자연스러운 링크 주스를 흘려보내는 구조를 설계합니다.
+                    </p>
+
+                    <h3>02. Tier 3 PBN 네트워크 구조 분석</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        우리가 제안하는 전략은 다층적인 방어막을 갖춘 Tier 3 구조입니다.
+                    </p>
+                    <ul style="list-style: square; margin-left: 1.5rem; margin-bottom: 2rem;">
+                        <li style="margin-bottom: 0.5rem;"><strong>Tier 1 (Money Site):</strong> 고객의 메인 웹사이트. 직접적인 트래픽과 전환이 발생하는 곳.</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Tier 2 (Web 2.0):</strong> 미디아 (Medium), 브런치, 티스토리 등의 고품질 플랫폼. Tier 1 로 링크를 전달하는 교량 역할.</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Tier 3 (PBN Network):</strong> 우리가 직접 구축하고 관리하는 폐쇄형 네트워크. 검색 엔진 봇의 감시를 회피하며 Tier 2 의 권한을 지속적으로 주입합니다.</li>
+                    </ul>
+
+                    <div style="background: #000; color: #fff; padding: 2rem; margin: 3rem 0; font-family: var(--mono-font);">
+                        <p style="margin-bottom: 1rem;">>> SYSTEM MSG: ALGORITHM UPDATE DETECTED</p>
+                        <p>> ACTION: DIVERSIFYING IP SUBNETS & ANCHOR TEXT RATIOS</p>
+                        <p>> STATUS: OPTIMIZATION COMPLETE</p>
+                    </div>
+
+                    <h3>03. 데이터 기반의 앵커 텍스트 전략</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        '판교 백링크 대행'과 같은 메인 키워드에만 집중하는 것은 위험합니다. 우리는 브랜드 명, 내추럴 문장형, URL 베어 등 다양한 앵커 텍스트 비율을 6:3:1 의 황금비율로 유지하여 구글 봇이 이를 '자연스러운 지적'으로 인식하도록 프로그래밍합니다.
+                    </p>
+                    <p>
+                        이 전략은 단기적인 상승이 아닌, 장기적인 도메인 자산을 축적하여 경쟁사가 모방할 수 없는 진입 장벽을 만듭니다.
+                    </p>
+
+                </div>
+            </article>
+
+        </div>
+
+        <!-- FAQ Section -->
+        <section class="section-gap">
+            <h2 style="text-align: center;">DATA_Q&A</h2>
+            <div class="grid grid-3" style="margin-top: 2rem;">
+                
+                <div class="border-box">
+                    <h4>Q. 패널티 위험은?</h4>
+                    <p class="mono" style="margin-top: 1rem;">
+                        A. Tier 3 PBN 은 메인 사이트와 직접 연결되지 않습니다. 쿠션 역할을 하는 Tier 2 를 통해 리스크를 99% 차단합니다.
+                    </p>
                 </div>
 
-                <p>우리가 제공하는 PBN (Private Blog Network) 은 무작위로 생성된 페이지가 아닙니다. 각 노드는 특정 토픽 클러스터를 형성하여 검색 엔진 봇에게 자연스러운 크롤링 경로를 제공합니다. 이는 마치 판교 테크노밸리의 복잡한 도로망처럼 설계된 데이터 하이웨이입니다.</p>
+                <div class="border-box">
+                    <h4>Q. 효과 확인 기간은?</h4>
+                    <p class="mono" style="margin-top: 1rem;">
+                        A. 보통 백링크 인덱싱 후 2 주 이내에 순위 변동이 감지되며, 3 개차 후에는 도메인 권한 (DA) 의 영구적 상승이 확인됩니다.
+                    </p>
+                </div>
 
-                <h3>1. 링크 주스의 효율적 전달 매커니즘</h3>
-                <p>외부 링크 (Backlink) 는 본질적으로 투표입니다. 그러나 모든 투표가 동일한 가치를 가지지는 않습니다. 관련성이 높은 도메인에서 유입되는 링크는 기하급수적인 가중치를 가집니다. 우리의 전략은 타겟 키워드와 완벽하게 정렬된 콘텐츠 컨텍스트 내에 링크를 배치하여, 검색 엔진이 이를 '자연스러운 인용'으로 인식하도록 유도하는 것입니다.</p>
+                <div class="border-box">
+                    <h4>Q. 판교 지역 특화 전략?</h4>
+                    <p class="mono" style="margin-top: 1rem;">
+                        A. 판교 및 성남 지역 IP 대역을 활용한 로컬 시그널을 강화하여, 지역 기반 검색 결과에서의 노출 우선순위를 높입니다.
+                    </p>
+                </div>
 
-                <h3>2. 리스크 관리와 화이트햇 기법의 경계</h3>
-                <p>급진적인 링크 빌딩은 패널티를 초래할 수 있습니다. 우리는 '펭귄 업데이트' 이후의 알고리즘 변화를 면밀히 모니터링하며, 링크 성장 곡선을 점진적으로 설계합니다. 급상승보다는 <strong>지속 가능한 우상향</strong>을 목표로 합니다. 이것이 판교 백링크 대행 업체로서 우리가 고객에게 약속하는 기술적 책임감입니다.</p>
-            </article>
-        </section>
-
-        <section>
-            <h2>클라이언트 데이터 로그 (Case Study)</h2>
-            
-            <div class="review-card">
-                <h3>IT 스타트업 A 사 (판교)</h3>
-                <div class="review-meta">Target: SaaS 솔루션 키워드 | Period: 3 Months</div>
-                <p>"초기 트래픽이 제로에 수렴하던 상태에서 전문적인 백링크 전략을 도입했습니다. 단순 노출 증가가 아닌, 체류 시간과 전환율까지 고려한 정교한 링크 빌딩이었습니다. 3 개월 만에 메인 키워드 1 페이지 진입을 달성했으며, 이는 결코 우연이 아닌 데이터에 기반한 결과임을 확인했습니다."</p>
-            </div>
-
-            <div class="review-card">
-                <h3>부동산 컨설팅 B 사 (분당/판교)</h3>
-                <div class="review-meta">Target: 상업용 부동산 임차 | Period: 2 Months</div>
-                <p>"경쟁이 극심한 지역 키워드에서 차별화된 전략이 필요했습니다. 해당 업체는 지역 기반 PBN 을 구축하여 지역성 (Local SEO) 신호를 극대화했습니다. 결과적으로 클릭당 비용 (CPC) 을 절감하면서도 유기적 트래픽을 200% 이상 증대시켰습니다."</p>
             </div>
         </section>
 
-        <section>
-            <h2>자주 묻는 기술 질문 (FAQ)</h2>
-            <div style="margin-top: 1rem;">
-                <p style="font-weight: bold; border-left: 5px solid var(--c-fg); padding-left: 10px; margin-bottom: 5px;">Q. PBN 사용 시 구글 패널티 위험은 없나요?</p>
-                <p style="margin-bottom: 20px;">A. 풋프린트 (Footprint) 를 남기지 않는 것이 핵심입니다. 우리는 호스팅 IP 분산, 다양한 CMS 사용, 콘텐츠의 고유성 확보를 통해 알고리즘의 탐지를 회피하는 고도화된 네트워크를 운영합니다.</p>
-
-                <p style="font-weight: bold; border-left: 5px solid var(--c-fg); padding-left: 10px; margin-bottom: 5px;">Q. 백링크 효과가 나타나기까지 얼마나 소요됩니까?</p>
-                <p style="margin-bottom: 20px;">A. 구글 봇의 크롤링 주기와 인덱싱 속도에 따라 다르지만, 일반적으로 고품질 링크 빌딩 후 2 주에서 4 주 내에 순위 변동이 감지됩니다. 지속적인 모니터링을 통해 보고서를 제공합니다.</p>
-
-                <p style="font-weight: bold; border-left: 5px solid var(--c-fg); padding-left: 10px; margin-bottom: 5px;">Q. 판교 지역 특화 서비스가 가능한가요?</p>
-                <p>A. 네, 지역 기반 키워드 (Local Keywords) 에 대한 이해도가 높습니다. 판교 및 경기 남부 지역의 검색 트렌드를 반영한 하이퍼 로컬 전략을 수립합니다.</p>
-            </div>
+        <!-- CTA Section -->
+        <section style="border: 4px solid var(--border-color); padding: 3rem; text-align: center; background-color: #fff;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">검색 엔진의 규칙을 재정의하십시오.</h3>
+            <p class="mono" style="margin-bottom: 2rem;">
+                현재 귀사의 도메인 권한 점수와 백링크 프로필을 분석해 드립니다.
+            </p>
+            <a href="tel:010-0000-0000" class="btn">상담 요청하기 [010-0000-0000]</a>
         </section>
+
     </main>
 
-    <footer>
-        <p>SYSTEM STATUS: ONLINE | SERVER LOCATION: PANGYO</p>
-        <p>판교 백링크 대행 업체의 전문가가 도와드립니다.</p>
-        <a href="tel:010-6279-0862" class="cta-box">010-6279-0862 로 즉시 연결</a>
-        <p style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.6;">&copy; 2024 KR-PBN-BP-026. All Rights Reserved. Brutalist Design System.</p>
+    <footer style="border-top: 4px solid var(--border-color); margin-top: 4rem; padding: 2rem; background: #000; color: #fff;">
+        <div class="container" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div class="mono" style="font-size: 0.8rem; opacity: 0.7;">
+                COPYRIGHT © 2024 PANGYO SEO LAB. ALL RIGHTS RESERVED.<br>
+                DESIGNED BY BRUTALIST_AVANTGARDE_SYSTEM.
+            </div>
+            <div class="mono" style="font-size: 0.8rem; opacity: 0.7;">
+                LOCATION: PANGYO TECHNO VALLEY, SEONGNAM-SI, GYEONGGI-DO<br>
+                CONTACT: MASTER@PANGYO-SEO.LAB
+            </div>
+        </div>
     </footer>
 
 </body>
